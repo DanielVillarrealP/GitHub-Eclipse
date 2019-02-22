@@ -5,7 +5,7 @@ public class MainHelloWorld {
 		
 		System.out.println("Hello World");
 
-		//comentario Realizado por Rubén Vega en el codigo de Daniel
+		// Comentario Realizado por Rubén Vega en el código de Daniel
 
 	}
 
