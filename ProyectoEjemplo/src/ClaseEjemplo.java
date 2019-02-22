@@ -8,7 +8,7 @@ public class ClaseEjemplo {
             // Comentario.
         }
 
-        System.out.println("Fn del ejemplo.");
+        System.out.println("Fin del ejemplo.");
         
     }
 }
