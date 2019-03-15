@@ -34,6 +34,12 @@ public class MainActividad_3 {
 			System.out.println("\nEl número introducido NO está en el array.");
 		}
 		
+		array = incrementarArray(array);
+		
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array [i]); 
+		}
+		
 		sc.close();
 	}
 
@@ -55,6 +61,19 @@ public class MainActividad_3 {
 			}
 		}
 		return encontrado;
+	}
+	
+	//Función encargada de sumar 1 a todos los valores del array
+	/**
+	 * Función encargada de incrementar en 1 todos los valores del array.
+	 * @param array
+	 * @return array
+	 */
+	private static int [] incrementarArray (int array []) {
+		for (int i = 0; i < array.length; i++) {
+			array [i] = array [i] + 1; 
+		}
+		return array; 
 	}
 	
 }
